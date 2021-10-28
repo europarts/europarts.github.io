@@ -106,3 +106,17 @@ p{
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 800px){
+    img{
+        max-width: 55%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+        h2{
+            font-size: 3em;
+        }
+        
+    }
