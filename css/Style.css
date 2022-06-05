@@ -1,0 +1,672 @@
+body{
+    background-color: black;
+    font-family: 'Khand', sans-serif;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+
+#homeMain{
+    max-height: 100vh;
+    
+}
+
+
+p{
+    font-family: 'Coda', cursive;
+    font-size: 1em;
+    color: white;
+    letter-spacing: 3px;
+    
+    
+}
+
+
+
+#InventoryTitleText h1{
+    color: red;
+    font-size: 10rem;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 5px black;
+    line-height: 4rem;
+}
+
+h2{
+    color: red;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+h5{
+    color: red;
+    font-size: 2rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+ul.IventoryList li{
+    color: black;
+    font-family: 'Coda', cursive;
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+
+#NavSection{
+    height: 80px;
+}
+
+.nav-link{
+    color:red;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.dropdown{
+    padding-top: 1rem;
+    
+}
+
+#dropdownMenuLink{
+    background-color: red;
+    color: black;
+}
+
+
+
+#navLogo{
+    padding: 15px;
+    background-color: white;
+    width: 60%;
+    position: relative;
+    z-index: 3;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+.icon-links{
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.icon{
+    color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+a{
+    transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+     -o-transition: all 0.2s ease-in;
+     -webkit-transition: all 0.2s ease-in;
+}
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a.dropdown-item{
+    color: red;
+}
+a.nav-link:visited {
+    color: red;
+}
+a:visited {
+    color: red;
+}
+
+a:hover{
+    color: white;
+    text-shadow:0px 0px 30px #fdec6e;
+    transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+a.nav-link:hover{
+    color: white;
+}
+a.dropdown-item:hover{
+    color: white;
+    background-color: red;
+}
+a.icon:hover{
+    text-shadow:0px 0px 30px #fdec6e;
+    transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+
+}
+
+
+a.nav-link:active {
+    color: yellow;
+}
+a:active{
+    color:yellow;
+}
+a.dropdown-item:active{
+    color: yellow;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+
+    box-shadow: none;
+}
+
+a.cardPicLink{
+    color: red;
+    text-decoration: none;
+}
+a.cardPicLink:hover{
+    text-decoration: underline;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+
+
+div#contentItems{
+   
+    background-color: red;
+    height: 64vh;
+    
+  
+}
+
+#redArea{
+    height: 100%;
+    
+}
+
+#redShape{
+    position: relative;
+    width: 100%;
+   height: 100%;
+    z-index: 2;
+
+    
+}
+
+#redShape:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 25%;
+    padding-left: 10%;
+    z-index: -1;
+    background:red;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+    
+}
+
+#slogan{
+   
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-size: 7rem;
+    line-height: 85%;
+}
+
+#homeIcons{
+    border-top: yellow solid 2px;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 80%;
+  
+}
+#homeIconsSmall{
+    display: none;
+}
+
+#bodyrightside{
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    
+}
+
+
+
+div .slide-contain{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.carouselPic{
+    height: 62vh;
+}
+
+#sloganSmall{
+    position: absolute;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 3;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 85%;
+    text-shadow: 3px 3px #0000008f;
+}
+#smallIcons{
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 1rem;
+    z-index: 3;
+    width: 90%;
+}
+
+
+
+#homeTruck{
+    width: 70%;
+    margin-top: -26%;
+    padding-bottom: 0;
+    position: relative;
+    padding-left: 8%;
+    z-index: 4;
+    
+}
+
+
+
+#AboutContent{
+  
+    background-image: url("../images/about-Lg-Banner.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top left;
+    
+}
+#AboutTitleTextArea{
+    margin-right: 1rem;
+}
+#TitlePic{
+    height: 400px;
+}
+
+h1#AboutTitle{
+    color: red;
+    font-size: 5rem;
+}
+
+#TitleText{
+    text-align: left;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-top: solid red 2px;
+    border-bottom: solid red 2px;
+
+}
+
+#BodyArea{
+    background-color: white;
+    width: 90%;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.AboutSection1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.AboutSection1 p{
+    color: black;
+    padding-top: 0;
+}
+
+.AboutSection2{
+    background-image: url("../images/MoveForwardPic.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+   
+}
+
+.AboutSection2 h2{
+    margin-top: 2rem;
+}
+
+.AboutSection2 p{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2rem;
+    color: white;
+    border-radius: 20px;
+    margin-top: 2rem;
+   margin-bottom: 6rem;
+}
+
+img#aboutLogoTruck{
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.AboutSection3{
+    margin-top: 1rem;
+    margin-bottom: 2%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.AboutSection3 p{
+    color: black;
+    padding-top: 0;
+
+}
+
+
+#InventoryTitleArea{
+    height: 400px;
+    background-image: url("../images/InventoryTitlePic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#InventoryTitleText{
+   padding-top: 4rem;
+
+}
+
+.borderLine{
+    border-top: red solid 4px;
+    margin: 2rem 2rem 1rem;
+}
+
+#cardArea{
+    margin-top: 1rem;
+    background-color: rgb(185, 185, 185);
+    padding:2rem 2rem 1rem 2rem;
+}
+
+.card{
+    border: none;
+}
+
+
+
+.card-body{
+    
+    margin: 4% 1rem 0 1.5rem;
+    padding: 0;
+}
+.card-text{
+    border-top: black solid 2px;
+}
+
+
+ul.InventoryList li{
+    font-family: 'Coda', cursive;
+    font-size: 1rem;
+    color: black;
+    letter-spacing: 3px;
+}
+
+
+.footerArea{
+    margin: 1rem 0;
+    
+}
+.footerArea p{
+    color: red;
+    padding-left: 2rem;
+}
+.footer-icons{
+    padding: 0;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+    #NavSection{
+        height: 4rem;
+    }
+    .nav-link {
+      font-size: 1.5rem;
+    }
+    .icon-links{
+        font-size: 1.5rem;
+    }
+    #slogan{
+        font-size: 3rem;
+        padding-top: 15%;
+    }
+    div#BodyArea{
+       
+        width: 100%;
+    
+    }
+    h1#AboutTitle{
+        color: red;
+        font-size: 4rem;
+        margin-top: 8%;
+    }
+    #TitleText{
+        font-size: 0.9em;
+    }
+    h5{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        line-height: 1.5rem;
+    }
+    ul.InventoryList li{
+        font-size: 0.85rem;
+    }
+
+    #redShape:after{
+        left: 10%;
+    }
+
+    #slogan{
+        padding-top: 3rem;
+        padding-left: 1rem;
+        font-size: 6rem;
+        line-height: 80%;
+    }
+    #homeTruck{
+        width: 80%;
+        margin-top: -32%;
+        padding-bottom: 0;
+        padding-left: 8%;
+        
+    }
+    
+    
+    
+    
+}
+
+
+@media (max-width: 1000px) {
+    .nav{
+        padding-top: 0.5rem;
+    }
+    .nav-link {
+      font-size: 0.95rem;
+    }
+    
+    .icon-links{
+        padding-top: 1rem;
+    }
+    #slogan{
+        font-size: 5rem;
+        padding-top: 5rem;
+    }
+    
+    h2{
+        font-size: 4rem;
+        letter-spacing: 9px;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    
+    #redShape:after{
+        width: 100%;
+        left: -25px;
+       
+    }
+    #homeTruck{
+        width: 90%;
+        margin-top: -36%;
+        padding-bottom: 0;
+        padding-left: 8%;
+        
+    }
+
+}
+
+
+
+@media (max-width: 800px) {
+      
+      #InventoryTitleText h1{
+        font-size: 8rem;
+    }
+    #InventoryTitleText{
+        padding-top: 3rem;
+     
+     }
+      h5{
+        font-size: 1.3rem;
+        
+    }
+    .card-body{
+        margin-top: 4%;
+    }
+
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+      
+    #InventoryTitleText h1{
+        font-size: 7rem;
+    }
+    #InventoryTitleText{
+        padding-top: 1rem;
+     
+     }
+    h1#AboutTitle{
+        margin-top: 1rem;
+    }
+    #AboutTitleTextArea{
+        margin-right: 0;
+    }
+    .AboutSection2{
+        background-image: url("../images/MoveForwardPic-Sm.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+       
+    }
+    #aboutLogoTruck{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .footerArea p{
+        padding-left: 0;
+    }
+    .footer-icons{
+        margin-right: 0;
+    }
+    h5{
+        font-size: 1.5rem;
+    }
+    .card-body{
+    
+        margin: 4% 1rem 0 1.5rem;
+        padding: 0;
+    }
+    
+    ul.InventoryList li{
+        font-size: 1rem;
+        letter-spacing: 3px;
+    }
+
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    #navLogo{
+        padding: 10px;
+        width: 75%;
+    }
+    #InventoryTitleText h1{
+        font-size: 5rem;
+    }
+    #InventoryTitleText{
+        padding-top: 0;
+     
+     }
+     
+     
+    
+
+}
+
+
+
+
+
+    
+ 
