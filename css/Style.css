@@ -667,6 +667,9 @@ ul.InventoryList li{
         font-size: 3rem;
         letter-spacing: 4px;
     }
+    h5{
+        text-align: center;
+    }
 
 }
 
