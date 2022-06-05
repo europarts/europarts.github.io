@@ -108,8 +108,8 @@ ul.IventoryList li{
 
 .icon{
     color: red;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 
@@ -189,7 +189,7 @@ a.cardPicLink:hover{
 div#contentItems{
    
     background-color: red;
-    height: 64vh;
+    height: 500px;
     
   
 }
@@ -246,9 +246,7 @@ div#contentItems{
     width: 80%;
   
 }
-#homeIconsSmall{
-    display: none;
-}
+
 
 #bodyrightside{
     padding-right: 10px;
@@ -267,12 +265,12 @@ div .slide-contain{
 }
 
 .carouselPic{
-    height: 62vh;
+    height: 500px;
 }
 
 #sloganSmall{
     position: absolute;
-    margin-top: 4rem;
+    margin-top: 75px;
     padding-left: 2rem;
     padding-right: 2rem;
     z-index: 3;
@@ -285,10 +283,10 @@ div .slide-contain{
 }
 #smallIcons{
     position: absolute;
-    margin-top: 50vh;
-    margin-left: 1rem;
+    margin-top: 450px;
     z-index: 3;
-    width: 90%;
+    width: 95%;
+    
 }
 
 
@@ -634,7 +632,10 @@ ul.InventoryList li{
         letter-spacing: 3px;
     }
 
-    
+    #sloganSmall{
+        font-size: 4rem;
+        margin-top: 100px;
+    }
     
     
     
@@ -649,7 +650,7 @@ ul.InventoryList li{
 @media (max-width: 576px){
     #navLogo{
         padding: 10px;
-        width: 75%;
+        width: 85%;
     }
     #InventoryTitleText h1{
         font-size: 5rem;
@@ -661,6 +662,14 @@ ul.InventoryList li{
      
      
     
+    .icon{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    #sloganSmall{
+        font-size: 3rem;
+    }
 
 }
 
