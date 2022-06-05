@@ -652,15 +652,20 @@ ul.InventoryList li{
         padding: 10px;
         width: 85%;
     }
+    #InventoryTitleArea{
+        height: 300px;
+    }
     #InventoryTitleText h1{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     #InventoryTitleText{
         padding-top: 0;
      
      }
      
-     
+     #InventoryTitleArea{
+         height: 300px;
+     }
     
     .icon{
         padding-left: 1px;
@@ -669,6 +674,13 @@ ul.InventoryList li{
 
     #sloganSmall{
         font-size: 3rem;
+    }
+    h2{
+        
+        font-size: 3rem;
+        
+        letter-spacing: 4px;
+        
     }
 
 }
