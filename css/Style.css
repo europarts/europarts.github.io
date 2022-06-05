@@ -509,9 +509,6 @@ ul.InventoryList li{
         
     }
     
-    
-    
-    
 }
 
 
@@ -635,13 +632,7 @@ ul.InventoryList li{
     }
     
     
-    
 }
-
-
-
-
-
 
 
 @media (max-width: 576px){
@@ -673,15 +664,11 @@ ul.InventoryList li{
         font-size: 3rem;
     }
     h2{
-        
         font-size: 3rem;
-        
         letter-spacing: 4px;
-        
     }
 
 }
-
 
 
 
